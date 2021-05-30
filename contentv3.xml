@@ -13,7 +13,7 @@
   <string role="key" value="_author"></string>
   <unicode value="MJ"></unicode>
   <string role="key" value="_backgroundImg"></string>
-  <instance class="exe.engine.resource.Resource" reference="11">
+  <instance class="exe.engine.resource.Resource" reference="16">
    <dictionary>
     <string role="key" value="_idevice"></string>
     <none></none>
@@ -104,9 +104,9 @@
   <string role="key" value="_name"></string>
   <unicode value="TFMPAgina"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="12"></int>
+  <int value="13"></int>
   <string role="key" value="_nextNodeId"></string>
-  <int value="6"></int>
+  <int value="7"></int>
   <string role="key" value="_nodeIdDict"></string>
   <dictionary>
    <unicode role="key" value="0"></unicode>
@@ -490,7 +490,217 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="top_anchors_linked_from_fields"></string>
         <list></list>
         <string role="key" value="children"></string>
-        <list></list>
+        <list>
+         <instance class="exe.engine.node.Node" reference="15">
+          <dictionary>
+           <string role="key" value="_title"></string>
+           <string value=""></string>
+           <string role="key" value="idevices"></string>
+           <list>
+            <instance class="exe.engine.listaidevice.ListaIdevice" reference="11">
+             <dictionary>
+              <string role="key" value="_title"></string>
+              <unicode value="DropDown Activity"></unicode>
+              <string role="key" value="instructionsForLearners"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="12">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="115"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="11"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Provide instruction on how the dropdown activity should be completed."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Instructions"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="class_"></string>
+                <string value="block instructions"></string>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;Lea y complete&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="section"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="12"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="_author"></string>
+              <unicode value="INTEF"></unicode>
+              <string role="key" value="_content"></string>
+              <instance class="exe.engine.listaidevice.ListaField" reference="13">
+               <dictionary>
+                <string role="key" value="_encodedContent"></string>
+                <unicode value="&lt;p&gt;adfasfas &lt;u&gt;fas&lt;/u&gt; fsadf&lt;/p&gt;"></unicode>
+                <string role="key" value="_id"></string>
+                <int value="116"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="11"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="&lt;p&gt;Enter the text for the dropdown activity in to the dropdown field 
+by either pasting text from another source or by typing text directly into the 
+field.&lt;/p&gt;&lt;p&gt; To select words to choose, double click on the word to select it and 
+click on the 'Hide/Show' button below.&lt;/p&gt;"></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Dropdown"></unicode>
+                <string role="key" value="_otrasInstruc"></string>
+                <unicode value="&lt;p&gt;Optional: Write other words to complete the Dropdown activity.&lt;br/&gt; Use | (the vertical bar) to separate words.&lt;br/&gt; This field can be left blank. &lt;/p&gt;"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value="&lt;p&gt;adfasfas&lt;u&gt;fas&lt;/u&gt;fsadf&lt;/p&gt;"></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.listaidevice.ListaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="13"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="otras"></string>
+                <unicode value="asdfasdfsa"></unicode>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+                <string role="key" value="parts"></string>
+                <list>
+                 <tuple>
+                  <unicode value="&lt;p&gt;adfasfas"></unicode>
+                  <unicode value="fas"></unicode>
+                 </tuple>
+                 <tuple>
+                  <unicode value="fsadf&lt;/p&gt;"></unicode>
+                  <string value=""></string>
+                 </tuple>
+                </list>
+                <string role="key" value="rawContent"></string>
+                <string value=""></string>
+               </dictionary>
+              </instance>
+              <string role="key" value="_purpose"></string>
+              <unicode value="&lt;p&gt;DropDown exercises are texts or sentences where students must select the correct words. They are often used for the following purposes:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;To check knowledge of core course concepts (this could be a pre-check, formative exercise, or summative check).&lt;/li&gt;&lt;li&gt;To check reading comprehension.&lt;/li&gt;&lt;li&gt;To check vocabulary knowledge.&lt;/li&gt;&lt;li&gt;To check word formation and/or grammatical competence. &lt;/li&gt;&lt;/ol&gt;"></unicode>
+              <string role="key" value="_tip"></string>
+              <unicode value="&lt;dl&gt;  &lt;dt&gt;If your goal is to test understanding of core concepts or reading comprehension  &lt;/dt&gt;  &lt;dd&gt;    &lt;p&gt;  Write a summary of the concept or reading long  enough to adequately test the target's knowledge, but short enough not to induce fatigue. Less than one typed page is probably adequate, but probably considerably less for young students or beginners.    &lt;/p&gt;    &lt;p&gt;Choose words in the text thatare key to understanding the concepts. Thesewill probably be verbs, nouns, and key adverbs.Choose alternatives with one clear answer.    &lt;/p&gt;  &lt;/dd&gt;  &lt;dt&gt;If your goal is to test vocabulary knowledge  &lt;/dt&gt;  &lt;dt&gt;If your goal is to test word formation/grammar:  &lt;/dt&gt;  &lt;dd&gt;  &lt;p&gt;Write a text using the target forms. This text should be coherent and cohesive, and be of an appropriate length. Remember that the goal is not vocabulary knowledge, so the core meanings of the stem words should be well known to the students.  &lt;/p&gt;  &lt;p&gt;Highlight the target words in the text. Provide alternatives with the same word stem, but different affixes. It is a good idea to get a colleague to test the test/exercise to make sure there are no surprises!  &lt;/p&gt;  &lt;/dd&gt;&lt;/dl&gt;"></unicode>
+              <string role="key" value="edit"></string>
+              <bool value="0"></bool>
+              <string role="key" value="emphasis"></string>
+              <int value="1"></int>
+              <string role="key" value="exe.engine.listaidevice.ListaIdevice.persistenceVersion"></string>
+              <int value="5"></int>
+              <string role="key" value="feedback"></string>
+              <instance class="exe.engine.field.TextAreaField" reference="14">
+               <dictionary>
+                <string role="key" value="_id"></string>
+                <int value="117"></int>
+                <string role="key" value="_idevice"></string>
+                <reference key="11"></reference>
+                <string role="key" value="_instruc"></string>
+                <unicode value="Enter any feedback you wish to provide the learner with-in the feedback field. This field can be left blank."></unicode>
+                <string role="key" value="_name"></string>
+                <unicode value="Feedback"></unicode>
+                <string role="key" value="anchor_names"></string>
+                <list></list>
+                <string role="key" value="anchors_linked_from_fields"></string>
+                <dictionary></dictionary>
+                <string role="key" value="content_w_resourcePaths"></string>
+                <unicode content="true" value=""></unicode>
+                <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                <int value="4"></int>
+                <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+                <int value="2"></int>
+                <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+                <int value="3"></int>
+                <string role="key" value="htmlTag"></string>
+                <string value="section"></string>
+                <string role="key" value="images"></string>
+                <instance class="exe.engine.galleryidevice.GalleryImages">
+                 <dictionary>
+                  <string role="key" value=".listitems"></string>
+                  <list></list>
+                  <string role="key" value="idevice"></string>
+                  <reference key="14"></reference>
+                 </dictionary>
+                </instance>
+                <string role="key" value="intlinks_to_anchors"></string>
+                <dictionary></dictionary>
+                <string role="key" value="nextImageId"></string>
+                <int value="0"></int>
+                <string role="key" value="parentNode"></string>
+                <none></none>
+               </dictionary>
+              </instance>
+              <string role="key" value="icon"></string>
+              <unicode value="question"></unicode>
+              <string role="key" value="id"></string>
+              <unicode value="12"></unicode>
+              <string role="key" value="isCloze"></string>
+              <bool value="1"></bool>
+              <string role="key" value="lastIdevice"></string>
+              <bool value="0"></bool>
+              <string role="key" value="originalicon"></string>
+              <unicode value="question"></unicode>
+              <string role="key" value="parentNode"></string>
+              <reference key="15"></reference>
+              <string role="key" value="systemResources"></string>
+              <list></list>
+              <string role="key" value="undo"></string>
+              <bool value="1"></bool>
+              <string role="key" value="userResources"></string>
+              <list></list>
+              <string role="key" value="version"></string>
+              <int value="0"></int>
+             </dictionary>
+            </instance>
+           </list>
+           <string role="key" value="_id"></string>
+           <unicode value="6"></unicode>
+           <string role="key" value="_package"></string>
+           <reference key="1"></reference>
+           <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
+           <int value="2"></int>
+           <string role="key" value="exportType"></string>
+           <string value="website"></string>
+           <string role="key" value="last_full_node_path"></string>
+           <string value="exe-node:Introducci%C3%B3n:Tema:Secci%C3%B3n"></string>
+           <string role="key" value="parent"></string>
+           <reference key="10"></reference>
+           <string role="key" value="children"></string>
+           <list></list>
+          </dictionary>
+         </instance>
+        </list>
        </dictionary>
       </instance>
      </list>
@@ -500,6 +710,8 @@ text through the text editing buttons associated with the field."></unicode>
    <reference key="7"></reference>
    <unicode role="key" value="5"></unicode>
    <reference key="10"></reference>
+   <unicode role="key" value="6"></unicode>
+   <reference key="15"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -510,7 +722,7 @@ text through the text editing buttons associated with the field."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="10"></reference>
+  <reference key="15"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -1754,7 +1966,7 @@ text through the text editing buttons associated with the field."></unicode>
   <dictionary>
    <string role="key" value="2a5157f90b65600276fcb1f6aa1a8312"></string>
    <list>
-    <reference key="11"></reference>
+    <reference key="16"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
