@@ -175,9 +175,15 @@ color:#ff0000;
 #header,#emptyHeader,#nodeDecoration{
 height:auto!important;
 /*headerHeight*/
-height:100px;min-height:100px;
+height:410px;min-height:410px;
 /*headerBGColor*/
-background-color:#9bbc2d;border:1px solid /*headerBorderColor*/
+background-color:#9bbc2d;
+/*headerBGURL*/
+background-image:url(Portadaoriginal.jpg);
+/*headerBGRepeat*/
+background-repeat:repeat;
+/*headerBGPosition*/
+background-position:0 0;border:1px solid /*headerBorderColor*/
 #dddddd;
 }
 #headerContent{
